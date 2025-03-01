@@ -1,0 +1,61 @@
+.hero{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.hero img{
+    margin-top: 50px;
+
+}
+.hero h1{
+    text-align: center;
+    width: 70%;
+    font-size: 65px;
+    font-weight: 600;
+    line-height: 70px;
+}
+.hero h1 span{
+    background: linear-gradient(270deg, orange 10%,rgb(175, 11, 175) 100%);
+    background-clip:text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hero p{
+    width: 50%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 40px;
+}
+.hero-action{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.hero-connect{
+    padding: 25px;
+    border-radius: 50px;
+    background: linear-gradient(270deg, orange 10%,rgb(175, 11, 175) 100%);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.hero-resume{
+    padding: 25px 75px;
+    border-radius: 50px;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.hero-resume:hover{
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+}
+.hero-connect:hover{
+    background: linear-gradient(45deg,rgb(175, 11, 175) 10% ,orange 100%);
+}
